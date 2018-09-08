@@ -2,14 +2,14 @@ Config               = {}
 
 Config.Locale        = 'en'
 
-Config.LicenseEnable = false -- enable truck license? Requires esx_license.  Set to false if you have esx_dmvschool installed
+Config.LicenseEnable = false -- enable boat license? Requires esx_license
 Config.LicensePrice  = 50000
 
 Config.MarkerType    = 1
 Config.DrawDistance  = 100.0
 
 Config.Marker = {
-	r = 154, g = 31, b = 0, -- orange color
+	r = 154, g = 31, b = 0, -- blue-ish color
 	x = 1.5, y = 1.5, z = 1.0  -- standard size circle
 }
 
@@ -87,7 +87,7 @@ Config.Vehicles = {
 	},
 
 	{
-		model = 'mule3',
+		model = 'mule',
 		label = 'Small Box Van',
 		price = 40000
 	},
