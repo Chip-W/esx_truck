@@ -8,6 +8,10 @@ https://github.com/ESX-Org/esx_boat
 ## Requirements
 - [esx_vehicleshop](https://github.com/ESX-Org/esx_vehicleshop)
 
+## Optional
+- [esx_dmvschool](https://github.com/ESX-Org/esx_dmvschool) - set Config.LicenseEnable to false
+- [esx_license](https://github.com/ESX-Org/esx_license) - Needed to purchase truck license if not using dmvschool
+
 ## Download & Installation
 
 ### Using Git
