@@ -1,21 +1,19 @@
-<<<<<<< HEAD
-# esx_boat
-This resource for ESX adds boat shops and boat garages around San Andreas, the island has been populated with boat garages, and comes defaulted with one boat shop.
+
+# esx_truck
+This resource for ESX adds commercial truck shops and truck garages around San Andreas, the island has been populated with truck garages, and comes defaulted with one truck shop.
+
+This is NOT an original script.  This script uses esx_boat as a base to edit<br />
+https://github.com/ESX-Org/esx_boat
 
 ## Requirements
 - [esx_vehicleshop](https://github.com/ESX-Org/esx_vehicleshop)
 
 ## Download & Installation
 
-### Using [fvm](https://github.com/qlaffont/fvm-installer)
-```
-fvm install --save --folder=esx esx-org/esx_boat
-```
-
 ### Using Git
 ```
 cd resources
-git clone https://github.com/ESX-Org/esx_boat [esx]/esx_boat
+git clone https://github.com/Chip-W/esx_truck
 ```
 
 ### Manually
@@ -23,15 +21,15 @@ git clone https://github.com/ESX-Org/esx_boat [esx]/esx_boat
 - Put it in the `[esx]` directory
 
 ## Installation
-- Import `esx_boat.sql` in your database
+- Import `esx_truck.sql` in your database only if you haven't already installed esx_boat
 - Add this to your `server.cfg`:
 
 ```
-start esx_boat
+start esx_truck
 ```
 
 # Legal
-### License
+### Original Script License
 esx_boat - Boat shop and garage for ESX
 
 Copyright (C) 2015-2018 Jérémie N'gadi
@@ -41,8 +39,17 @@ This program Is free software: you can redistribute it And/Or modify it under th
 This program Is distributed In the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty Of MERCHANTABILITY Or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License For more details.
 
 You should have received a copy Of the GNU General Public License along with this program. If Not, see http://www.gnu.org/licenses/.
+
+## ESX_Truck License
+esx_truck - Commercial truck shop and garage for ESX
+
+Copyright is still held by the original script creator
+Copyright (C) 2015-2018 Jérémie N'gadi
+
+This program Is free software: you can redistribute it And/Or modify it under the terms Of the GNU General Public License As published by the Free Software Foundation, either version 3 Of the License, Or (at your option) any later version.
+
+This program Is distributed In the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty Of MERCHANTABILITY Or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License For more details.
+
+You should have received a copy Of the GNU General Public License along with this program. If Not, see http://www.gnu.org/licenses/.
 =======
-# esx_truck
-edited version of esx_boat
-https://github.com/ESX-Org/esx_boat
->>>>>>> 360c46b380152bec712cb8ed9dbe583d4fa27750
+
